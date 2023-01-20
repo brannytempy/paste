@@ -8087,6 +8087,22 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@niznikr/reakit@npm:1.3.12":
+  version: 1.3.12
+  resolution: "@niznikr/reakit@npm:1.3.12"
+  dependencies:
+    "@popperjs/core": ^2.5.4
+    body-scroll-lock: ^3.1.5
+    reakit-system: ^0.15.2
+    reakit-utils: ^0.15.2
+    reakit-warning: ^0.6.2
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  checksum: 79fc7c440993f73dec290b959eb10ebbbe6aaa9eb9bb2aceaddc85f02ac9eda96a0783161a9988c81f0ef37e67b033fd6a04158d35c335e36c8501234f96c937
+  languageName: node
+  linkType: hard
+
 "@nodelib/fs.scandir@npm:2.1.5":
   version: 2.1.5
   resolution: "@nodelib/fs.scandir@npm:2.1.5"
@@ -14186,9 +14202,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@twilio-paste/reakit-library@workspace:packages/paste-libraries/reakit"
   dependencies:
+    "@niznikr/reakit": 1.3.12
     react: ^18.0.0
     react-dom: ^18.0.0
-    reakit: 1.3.11
     reakit-system: 0.15.2
     reakit-utils: 0.15.2
   peerDependencies:
@@ -15017,6 +15033,7 @@ __metadata:
     deepmerge: 4.2.2
     dotenv: ^16.0.0
     gatsby: ^4.11.1
+    gatsby-plugin-emotion: ^7.25.0
     gatsby-plugin-google-analytics: ^4.11.0
     gatsby-plugin-image: ^2.11.1
     gatsby-plugin-manifest: ^4.11.1
@@ -28564,6 +28581,20 @@ fsevents@^1.2.7:
   peerDependencies:
     "@parcel/core": ^2.3.1
   checksum: 4b1a33bfcfcc1d6089bc786e662b4c2a8bbbf2069dacb86a24ab2184c545d17bbbee8a7dcde31c457053e77783d445d6bb36e447ab4e5863966be1a7b4be57fc
+  languageName: node
+  linkType: hard
+
+"gatsby-plugin-emotion@npm:^7.25.0":
+  version: 7.25.0
+  resolution: "gatsby-plugin-emotion@npm:7.25.0"
+  dependencies:
+    "@babel/runtime": ^7.15.4
+    "@emotion/babel-preset-css-prop": ^11.2.0
+  peerDependencies:
+    "@babel/core": ^7.11.6
+    "@emotion/react": ^11.0.0
+    gatsby: ^4.0.0-next
+  checksum: 46bfa7f2866c5f00afe4c1b8c149ce27271062ffaece71e173a4d4fa209ee6431c999d467e0c779b6d5eee68b784ca6b031595c490d2b2de9233fa01312883d1
   languageName: node
   linkType: hard
 
@@ -43713,22 +43744,6 @@ fsevents@^1.2.7:
   peerDependencies:
     react: ^16.8.0 || ^17.0.0
   checksum: bc2d21a4619876b3fda6074493e79fc7aca3fdf7e87dc6b59d63f7ed911e44151f268c05aa78fdcce58bf6479ed9529a6f6f448f79f9735cb567b91470c363b4
-  languageName: node
-  linkType: hard
-
-"reakit@npm:1.3.11":
-  version: 1.3.11
-  resolution: "reakit@npm:1.3.11"
-  dependencies:
-    "@popperjs/core": ^2.5.4
-    body-scroll-lock: ^3.1.5
-    reakit-system: ^0.15.2
-    reakit-utils: ^0.15.2
-    reakit-warning: ^0.6.2
-  peerDependencies:
-    react: ^16.8.0 || ^17.0.0
-    react-dom: ^16.8.0 || ^17.0.0
-  checksum: b9fecb0aad1ee7b06d573882cd856aa136e91acb20dd7c4fcccfd8fc8e4c20e31c23ff27e86c31f14312c3643692a539c37b6f92e70e7b21b65496b93942ca6a
   languageName: node
   linkType: hard
 

@@ -105,6 +105,7 @@
     "deepmerge": "4.2.2",
     "dotenv": "^16.0.0",
     "gatsby": "^4.11.1",
+    "gatsby-plugin-emotion": "^7.25.0",
     "gatsby-plugin-google-analytics": "^4.11.0",
     "gatsby-plugin-image": "^2.11.1",
     "gatsby-plugin-manifest": "^4.11.1",
