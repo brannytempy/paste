@@ -1,5 +1,16 @@
 # Change Log
 
+## 17.5.1
+
+### Patch Changes
+
+- [`0b497ed21`](https://github.com/twilio-labs/paste/commit/0b497ed21b409a00b5b262f6cf106ad763b08449) [#2961](https://github.com/twilio-labs/paste/pull/2961) Thanks [@shleewhite](https://github.com/shleewhite)! - [Icons] update the ChevronDisclosureIcon, deprecate ChevronDisclosureExpandedIcon and ChevronDisclosureCollapsedIcon
+
+* [`0b497ed21`](https://github.com/twilio-labs/paste/commit/0b497ed21b409a00b5b262f6cf106ad763b08449) [#2961](https://github.com/twilio-labs/paste/pull/2961) Thanks [@shleewhite](https://github.com/shleewhite)! - [Disclosure] Update styles to align with new Paste Twilio theme
+
+* Updated dependencies [[`0b497ed21`](https://github.com/twilio-labs/paste/commit/0b497ed21b409a00b5b262f6cf106ad763b08449)]:
+  - @twilio-paste/disclosure@9.0.3
+
 ## 17.5.0
 
 ### Minor Changes
