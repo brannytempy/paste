@@ -13,7 +13,7 @@ props:
   line-height-40:
     value: "1.25rem" # 20px
   line-height-50:
-    value: "1.5rem" # 24px
+    value: "1.25rem" # 20px
   line-height-60:
     value: "1.5rem" # 24px
   line-height-70:
